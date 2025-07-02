@@ -1,65 +1,80 @@
-# LELOUCH-MD
+# 🧠 LELOUCH-MD
 
-<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
-𝐒𝐢𝐦𝐩𝐥𝐞 𝐁𝐞𝐬𝐭 𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩 𝐁𝐨𝐭 𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐁𝐲 匚卂ㄥㄥ...爪乇...卄ʌʀㄩкʌ 🌝
-<div class = "repo" align = "center">
- 
-<a href = "#">
-<img src = "https://files.catbox.moe/nj1suc.jpeg"  width="300" height="200">
-</img>
- <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff00ab&center=true&vCenter=true&multiline=false&lines=LELOUCH-MD+MD+WHATSAPP+BOT+MD" alt="">
-   
-## 𝐃𝐄𝐏𝐋𝐎𝐘 𝐒𝐄𝐓𝐔𝐏 ↕️
+<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%"/>
 
-**1. Fork This Repository**
+<div align="center">
+  <img src="https://files.catbox.moe/nj1suc.jpeg" width="300" height="200"/>
 
-*_Start by forking this repository to your own GitHub account. Click the button below to fork:_*
+  <p>
+    <img src="http://readme-typing-svg.herokuapp.com?color=ff00ab&center=true&vCenter=true&multiline=false&lines=LELOUCH-MD+%7C+WHATSAPP+BOT+%7C+MULTI-DEVICE" />
+  </p>
 
-  <a href="https://github.com//LELOUCH-MD/fork"><img title="LELOUCH-MD" src="https://img.shields.io/badge/FORK-LELOUCH-MDh?color=darkblue&style=for-the-badge&logo=stackshare"></a>
+  <h3>
+    🌟 Simple, Best WhatsApp Bot created by 匚卂ㄥㄥ...爪乇...卄ʌʀㄩкʌ 🌝
+  </h3>
+</div>
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+---
 
-🔑 Get Session ID (WhatsApp Pair Code Login)
+## 🚀 DEPLOY SETUP
 
-> To deploy, generate your session ID from the link below:
+### 1. Fork This Repository
+
+> Start by forking this repository to your own GitHub account.
+
+<p align="left">
+  <a href="https://github.com/LELOUCH-MD/fork">
+    <img src="https://img.shields.io/badge/FORK-LELOUCH--MD-darkblue?style=for-the-badge&logo=github"/>
+  </a>
+</p>
+
+---
+
+### 2. 🔐 Get Your Session ID (WhatsApp Pair Code Login)
+
+> Generate your session ID by clicking below:
+
 <p align="left">
   <a href="https://lelouch-session.onrender.com/">
     <img src="https://img.shields.io/badge/%F0%9F%9A%80%20GET%20PAIR%20CODE%20WEB-ffcc00?style=for-the-badge"/>
   </a>
 </p>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
 
+After generating it, **copy** your session ID and keep it safe.
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
+---
 
-2. **Obtain the Session ID**: After accessing the URL, you should see a session ID displayed. Copy this session ID.
+## ☁️ Deployment Options
 
+### 🌍 Deploy on Heroku
 
-   
-  1..DEPLOY ON HEROKU ⤵️
-  
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FMickey-bot-alt%2FLELOUCH-MD-V1) 
-   
-   
-  2..DEPLOY ON RENDER ⤵️
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FMickey-bot-alt%2FLELOUCH-MD-V1)
+
+---
+
+### ⚡ Deploy on Render
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Mickey-bot-alt/LELOUCH-MD-V1.git)
 
+---
 
-   3..DEPLOY ON GITHUB ⤵️
+### 🔧 Deploy via GitHub Actions
 
+<details>
+<summary><strong>Click here to expand GitHub Workflow Instructions</strong></summary>
 
-</details>
+#### 🛠 How to Deploy via Workflow
 
-<b><strong><summary align="center" style="color: Yello;">Deploy On Workflow</summary></strong></b>
-<p style="text-align: center; font-size: 1.2em;">
- 
-<h8>Copy the workflow codes and then frok the repo edit config add session id then save and now click on repo action tag then click on start new workflow then paste workflow codes rename main.yml to deploy.yml and save the file</h8>
-<h3 align-"center"> Important</h3>
-<h6 align-"center">Attention! We do not take responsibility if your github account is suspended through this Deploy method, I advise you not to use this workflow deploy method in the latest github accounts, github accounts created a year or more ago have not received the risk of suspension so far, this works It will only be done for 6 hours, you need to update the code to reactivate it.</h6>
+1. Copy the GitHub Actions code below  
+2. Fork this repository  
+3. Edit the repo config and **add your SESSION ID**  
+4. Save & go to the **"Actions"** tab  
+5. Click **"New Workflow"**, paste code, rename to `deploy.yml`, and save
 
-```
+⚠️ **Important Notice**  
+> We are not responsible for any **GitHub account suspension** via this method. Use at your own risk — safer for accounts older than 1 year. Deployments auto-stop after 6 hours.
+
+```yaml
 name: Node.js CI
 
 on:
@@ -72,13 +87,10 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [20.x]
-
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
@@ -93,17 +105,3 @@ jobs:
 
     - name: Start application
       run: npm start
-```
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
-
-### Thank You Dear
-
-> DEVELOPER OF LELOUCH-MD 
-- [匚卂ㄥㄥ...爪乇...卄ʌʀㄩкʌ ](https://github.com/Mickey-bot-alt)
-- Creater and Owner Of LELOUCH-MD
-
-> LELOUCH-MD Helper
-- [匚卂ㄥㄥ...爪乇...卄ʌʀㄩкʌ](https://github.com/Mickey-bot-alt)
-- For helping in bot plugin files.
----
-<a><img src='https://i.imgur.com/LyHic3i.gif'/>
