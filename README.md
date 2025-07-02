@@ -1,87 +1,89 @@
-# 🧠 LELOUCH-MD
+<h1 align="center">LELOUCH-MD</h1>
 
-<img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%"/>
+<p align="center">
+  <img src="https://i.imgur.com/dBaSKWF.gif" width="100%" alt="Banner"/>
+</p>
 
-<div align="center">
-  <img src="https://files.catbox.moe/nj1suc.jpeg" width="300" height="200"/>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Graduate&pause=1000&color=ff00ab&center=true&vCenter=true&width=435&lines=💥+LELOUCH-MD+WHATSAPP+BOT;⚙️+MULTI-DEVICE+SUPPORT;🔥+FAST+AND+MODERN+WHATSAPP+BOT;💡+POWERED+BY+LELOUCH+HIMSELF" alt="Typing SVG" />
+</p>
 
-  <p>
-    <img src="http://readme-typing-svg.herokuapp.com?color=ff00ab&center=true&vCenter=true&multiline=false&lines=LELOUCH-MD+%7C+WHATSAPP+BOT+%7C+MULTI-DEVICE" />
-  </p>
-
-  <h3>
-    🌟 Simple, Best WhatsApp Bot created by 匚卂ㄥㄥ...爪乇...卄ʌʀㄩкʌ 🌝
-  </h3>
-</div>
+<p align="center">
+  <img src="https://img.shields.io/github/forks/Mickey-bot-alt/LELOUCH-MD-V1?style=for-the-badge" />
+  <img src="https://img.shields.io/github/stars/Mickey-bot-alt/LELOUCH-MD-V1?color=yellow&style=for-the-badge" />
+  <img src="https://img.shields.io/github/license/Mickey-bot-alt/LELOUCH-MD-V1?style=for-the-badge" />
+</p>
 
 ---
 
-## 🚀 DEPLOY SETUP
+### 🌟 Introduction
 
-### 1. Fork This Repository
+> **LELOUCH-MD** est un puissant bot WhatsApp multi-device, rapide, stable et entièrement personnalisable.  
+> Conçu avec 💖 par **匚卂ㄥㄥ...爪乇...卄ʌʀㄩкʌ**, ce bot apporte la puissance dans vos groupes WhatsApp.  
+> ⚔️ Simple, Rapide, et Efficace.
 
-> Start by forking this repository to your own GitHub account.
+---
+
+## 🚀 Déploiement Facile
+
+### 1. ⚒️ Fork le Repo
+
+> Commence en forkant ce dépôt :
 
 <p align="left">
-  <a href="https://github.com/LELOUCH-MD/fork">
-    <img src="https://img.shields.io/badge/FORK-LELOUCH--MD-darkblue?style=for-the-badge&logo=github"/>
+  <a href="https://github.com/Mickey-bot-alt/LELOUCH-MD-V1/fork">
+    <img src="https://img.shields.io/badge/FORK--NOW-1b1f23?style=for-the-badge&logo=github"/>
   </a>
 </p>
 
 ---
 
-### 2. 🔐 Get Your Session ID (WhatsApp Pair Code Login)
+### 2. 🔐 Obtiens ton Session ID (Pair Code WhatsApp)
 
-> Generate your session ID by clicking below:
+> Clique sur le bouton ci-dessous pour générer ton code de session sécurisé :
 
 <p align="left">
   <a href="https://lelouch-session.onrender.com/">
-    <img src="https://img.shields.io/badge/%F0%9F%9A%80%20GET%20PAIR%20CODE%20WEB-ffcc00?style=for-the-badge"/>
+    <img src="https://img.shields.io/badge/%F0%9F%94%91+GET+PAIR+CODE-25D366?style=for-the-badge&logo=whatsapp"/>
   </a>
 </p>
 
-After generating it, **copy** your session ID and keep it safe.
+---
+
+## ☁️ Déploiement sur Plateformes
+
+### ⚡ Heroku
+
+[![Deploy Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Mickey-bot-alt/LELOUCH-MD-V1)
 
 ---
 
-## ☁️ Deployment Options
-
-### 🌍 Deploy on Heroku
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FMickey-bot-alt%2FLELOUCH-MD-V1)
-
----
-
-### ⚡ Deploy on Render
+### 🌀 Render
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Mickey-bot-alt/LELOUCH-MD-V1.git)
 
 ---
 
-### 🔧 Deploy via GitHub Actions
+### 🧩 GitHub Actions
 
 <details>
-<summary><strong>Click here to expand GitHub Workflow Instructions</strong></summary>
+<summary><strong>📜 Déployer via Workflow GitHub</strong></summary>
 
-#### 🛠 How to Deploy via Workflow
+#### Instructions :
+1. Fork le repo  
+2. Va dans l’onglet `Actions`  
+3. Crée un nouveau workflow  
+4. Copie-colle le script ci-dessous  
+5. Renomme le fichier en `deploy.yml` et sauvegarde
 
-1. Copy the GitHub Actions code below  
-2. Fork this repository  
-3. Edit the repo config and **add your SESSION ID**  
-4. Save & go to the **"Actions"** tab  
-5. Click **"New Workflow"**, paste code, rename to `deploy.yml`, and save
-
-⚠️ **Important Notice**  
-> We are not responsible for any **GitHub account suspension** via this method. Use at your own risk — safer for accounts older than 1 year. Deployments auto-stop after 6 hours.
+⚠️ **Important**  
+> GitHub peut suspendre les comptes récents utilisant ce type de déploiement. Utilise cette méthode avec un compte âgé de +1 an si possible.
 
 ```yaml
 name: Node.js CI
 
 on:
   push:
-    branches:
-      - main
-  pull_request:
     branches:
       - main
 
@@ -92,16 +94,16 @@ jobs:
       matrix:
         node-version: [20.x]
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ matrix.node-version }}
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
 
-    - name: Install dependencies
-      run: npm install
+      - name: Install deps
+        run: npm install
 
-    - name: Start application
-      run: npm start
+      - name: Start Bot
+        run: npm start
